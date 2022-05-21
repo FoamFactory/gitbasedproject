@@ -1,0 +1,25 @@
+{
+  "name": "@foamfactory/gitbasedproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Johnson <jaywir3@gmail.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foamfactory/shipout.git"
+  },
+  "shipout": {
+    "staging": {
+      "username": "someuser",
+      "host": "server.somewhere.net",
+      "port": "3791",
+      "base_directory": "/some/path"
+    }
+  }
+}
